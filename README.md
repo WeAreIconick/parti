@@ -1,7 +1,7 @@
-# EXAMPLE_REPO_NAME
+# buildio
 
-EXAMPLE_REPO_DESCRIPTION
+A theme based on https://buildio.framer.website/
 
 # Testing
 
-[Test it out on Playground](EXAMPLE_REPO_PLAYGROUND_URL)
+[Test it out on Playground](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/WeAreIconick/buildio/refs/heads/main/_playground/blueprint.json)

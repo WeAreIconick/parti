@@ -1,8 +1,8 @@
 {
-	"name": "georgestephanis/theme-repo-template",
+	"name": "WeAreIconick/buildio",
 	"type": "wordpress-theme",
-	"description": "A starter theme for FSE.  Will generally be overwritten.",
-	"homepage": "https://github.com/georgestephanis/theme-repo-template",
+	"description": "A theme based on https://buildio.framer.website/",
+	"homepage": "https://github.com/WeAreIconick/buildio",
 	"license": "GPL-2.0-or-later",
 	"repositories": [
 		{

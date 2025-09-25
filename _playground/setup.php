@@ -2,10 +2,10 @@
 /**
  * Some setup scripts to run when initializing a Playground environment.
  *
- * @package ThemeRepoTemplate
+ * @package Buildio
  */
 
-namespace ThemeRepoTemplate\Setup;
+namespace Buildio\Setup;
 
 /**
  * Set and flush rewrite rules.
@@ -21,7 +21,7 @@ $wp_rewrite->flush_rules();
 
 require_once __DIR__ . '/../inc/starter-content.php';
 
-$starter_content = \ThemeRepoTemplate\StarterContent\get_starter_content();
+$starter_content = \Buildio\StarterContent\get_starter_content();
 $nav_menus       = array();
 
 /**

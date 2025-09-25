@@ -1,7 +1,7 @@
 {
-    "name": "theme-repo-template",
+    "name": "buildio",
     "version": "1.0.0",
-    "description": "A starter theme for FSE.  Will generally be overwritten.",
+    "description": "A theme based on https://buildio.framer.website/",
     "author": {
         "name": "George Stephanis",
         "url": "https://georgestephanis.wordpress.com"
@@ -12,9 +12,9 @@
         "theme"
     ],
     "prettier": "@wordpress/prettier-config",
-    "homepage": "https://github.com/georgestephanis/theme-repo-template",
-    "repository": "https://github.com/georgestephanis/theme-repo-template",
-    "bugs": "https://github.com/georgestephanis/theme-repo-template/issues",
+    "homepage": "https://github.com/WeAreIconick/buildio",
+    "repository": "https://github.com/WeAreIconick/buildio",
+    "bugs": "https://github.com/WeAreIconick/buildio/issues",
     "private": false,
     "files": [
         "**",
@@ -43,6 +43,6 @@
         "lint:js": "wp-scripts lint-js ./js",
         "build": "sass sass/style.scss:style.css --style=expanded --source-map",
         "start": "sass --watch sass/style.scss:style.css --style=expanded --source-map",
-        "theme-zip": "wp-scripts plugin-zip && mv theme-repo-template.zip _playground/theme-repo-template.zip"
+        "theme-zip": "wp-scripts plugin-zip && mv buildio.zip _playground/buildio.zip"
     }
 }
