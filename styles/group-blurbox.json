@@ -8,18 +8,18 @@
 		"border": {
 			"radius": "20px"
 		},
-        "spacing": {
-            "padding": {
+		"spacing": {
+			"padding": {
 				"top": "0.5rem",
 				"right": "1rem",
 				"bottom": "0.5rem",
 				"left": "1rem"
-            }
-        },
-        "color": {
-            "text": "var(--wp--preset--color--white)",
-            "background": "var(--wp--preset--color--black-40)"
-        },
-        "css": "backdrop-filter: blur(8px);"
+			}
+		},
+		"color": {
+			"text": "var(--wp--preset--color--white)",
+			"background": "var(--wp--preset--color--black-40)"
+		},
+		"css": "backdrop-filter: blur(8px);"
 	}
 }
