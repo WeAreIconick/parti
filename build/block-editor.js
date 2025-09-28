@@ -1,0 +1,1 @@
+(()=>{"use strict";var e={n:o=>{var r=o&&o.__esModule?()=>o.default:()=>o;return e.d(r,{a:r}),r},d:(o,r)=>{for(var n in r)e.o(r,n)&&!e.o(o,n)&&Object.defineProperty(o,n,{enumerable:!0,get:r[n]})},o:(e,o)=>Object.prototype.hasOwnProperty.call(e,o)};const o=window.wp.i18n,r=window.wp.domReady;e.n(r)()(()=>{console.log((0,o.__)("In Block Editor"))})})();
