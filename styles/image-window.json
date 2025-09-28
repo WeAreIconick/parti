@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Window",
+	"slug": "window",
+	"blockTypes": [ "core/image" ],
+	"styles": {
+		"border": {
+			"radius": {
+				"topLeft": "1000px",
+				"topRight": "1000px",
+				"bottomLeft": "100px",
+				"bottomRight": "100px"
+			}
+		}
+	}
+}
