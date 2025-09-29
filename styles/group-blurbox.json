@@ -20,6 +20,6 @@
 			"text": "var(--wp--preset--color--white)",
 			"background": "var(--wp--preset--color--black-40)"
 		},
-		"css": "backdrop-filter: blur(8px);"
+		"css": "backdrop-filter: blur(8px); display: inline-block;"
 	}
 }
