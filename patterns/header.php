@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: header
- * Slug: buildio/header
+ * Slug: parti/header
  * Inserter: no
  */
 ?>
@@ -13,7 +13,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Contact us', 'buildio');?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Contact us', 'parti');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

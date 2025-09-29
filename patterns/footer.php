@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: footer
- * Slug: buildio/footer
+ * Slug: parti/footer
  * Inserter: no
  */
 ?>
@@ -14,7 +14,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Get in touch', 'buildio');?></a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><?php esc_html_e('Get in touch', 'parti');?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -25,7 +25,7 @@
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('Links', 'buildio');?></h2>
+<h2 class="wp-block-heading"><?php esc_html_e('Links', 'parti');?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"layout":{"type":"flex","orientation":"vertical"}} /--></div>
@@ -33,7 +33,7 @@
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:heading -->
-<h2 class="wp-block-heading"><?php esc_html_e('Socials', 'buildio');?></h2>
+<h2 class="wp-block-heading"><?php esc_html_e('Socials', 'parti');?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"layout":{"type":"flex","orientation":"vertical"}} /--></div>
@@ -42,12 +42,12 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white-70"}}}},"textColor":"white-70"} -->
-<p class="has-white-70-color has-text-color has-link-color"><?php esc_html_e('Copyright © 2025 - All Rights Reserved', 'buildio');?></p>
+<p class="has-white-70-color has-text-color has-link-color"><?php esc_html_e('Copyright © 2025 - All Rights Reserved', 'parti');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|white-70"}}}},"textColor":"white-70"} -->
-<p class="has-white-70-color has-text-color has-link-color"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( 'Designed by Khuram, Powered by %1$sWordPress%2$s', 'buildio' ), '<a href="' . esc_url( 'https://wordpress.org/' ) . '">', '</a>' ); ?></p>
+<p class="has-white-70-color has-text-color has-link-color"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */
+echo sprintf( esc_html__( 'Designed by Khuram, Powered by %1$sWordPress%2$s', 'parti' ), '<a href="' . esc_url( 'https://wordpress.org/' ) . '">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

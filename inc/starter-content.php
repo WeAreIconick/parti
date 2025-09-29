@@ -1,13 +1,13 @@
 <?php
 /**
- * Buildio Starter Content
+ * Parti Starter Content
  *
  * @link https://make.wordpress.org/core/2016/11/30/starter-content-for-themes-in-4-7/
  *
- * @package Buildio
+ * @package Parti
  */
 
-namespace Buildio\StarterContent;
+namespace Parti\StarterContent;
 
 /**
  * Returns the array of starter content for the theme.
@@ -23,7 +23,7 @@ function get_starter_content() {
 		'posts'     => array(
 			'front' => array(
 				'post_type'    => 'page',
-				'post_title'   => esc_html_x( 'Front Page', 'Theme starter content', 'buildio' ),
+				'post_title'   => esc_html_x( 'Front Page', 'Theme starter content', 'parti' ),
 				'post_content' => '<!-- wp:heading -->
 <h2 class="wp-block-heading">I am a heading!</h2>
 <!-- /wp:heading -->
@@ -50,7 +50,7 @@ function get_starter_content() {
 
 		'attachments' => array(
 			'wapuu' => array(
-				'post_title' => esc_html_x( 'Wapuu', 'Theme starter content', 'buildio' ),
+				'post_title' => esc_html_x( 'Wapuu', 'Theme starter content', 'parti' ),
 				'file'       => '_playground/wapuu.png',
 			),
 		),
@@ -61,15 +61,15 @@ function get_starter_content() {
 			'page_on_front'   => '{{front}}',
 			'page_for_posts'  => '{{blog}}',
 			'site_icon'       => '{{wapuu}}',
-			'blogname'        => esc_html_x( 'Buildio', 'Theme starter content', 'buildio' ),
-			'blogdescription' => esc_html_x( 'Another fine WordPress Block Theme', 'Theme starter content', 'buildio' ),
+			'blogname'        => esc_html_x( 'Parti', 'Theme starter content', 'parti' ),
+			'blogdescription' => esc_html_x( 'Another fine WordPress Block Theme', 'Theme starter content', 'parti' ),
 		),
 
 		// Set up nav menus for each of the two areas registered in the theme.
 		'nav_menus' => array(
 			// Assign a menu to the "primary" location.
 			'primary' => array(
-				'name'  => esc_html_x( 'Primary menu', 'Theme starter content', 'buildio' ),
+				'name'  => esc_html_x( 'Primary menu', 'Theme starter content', 'parti' ),
 				'items' => array(
 					'link_home', // Note that the core "home" page is actually a link in case a static front page is not used.
 					'page_about',
@@ -80,14 +80,14 @@ function get_starter_content() {
 
 			// Assign a menu to the "footer" location.
 			'footer'  => array(
-				'name'  => esc_html__( 'Footer menu', 'buildio' ),
+				'name'  => esc_html__( 'Footer menu', 'parti' ),
 				'items' => array(
 					'link_home',
 					'link_news',
 					'link_email',
 					'link_github' => array(
-						'title' => esc_html_x( 'Buildio', 'Theme starter content', 'buildio' ),
-						'url'   => 'https://github.com/WeAreIconick/buildio/',
+						'title' => esc_html_x( 'Parti', 'Theme starter content', 'parti' ),
+						'url'   => 'https://github.com/WeAreIconick/parti/',
 					),
 				),
 			),

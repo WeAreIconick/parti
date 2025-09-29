@@ -2,10 +2,10 @@
 /**
  * Some setup scripts to run when initializing a Playground environment.
  *
- * @package Buildio
+ * @package Parti
  */
 
-namespace Buildio\Setup;
+namespace Parti\Setup;
 
 /**
  * Set and flush rewrite rules.
@@ -21,7 +21,7 @@ $wp_rewrite->flush_rules();
 
 require_once __DIR__ . '/../inc/starter-content.php';
 
-$starter_content = \Buildio\StarterContent\get_starter_content();
+$starter_content = \Parti\StarterContent\get_starter_content();
 $nav_menus       = array();
 
 /**

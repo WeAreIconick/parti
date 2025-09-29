@@ -1,8 +1,8 @@
 {
-	"name": "WeAreIconick/buildio",
+	"name": "WeAreIconick/parti",
 	"type": "wordpress-theme",
-	"description": "A theme based on https://buildio.framer.website/",
-	"homepage": "https://github.com/WeAreIconick/buildio",
+	"description": "A theme based on https://parti.framer.website/",
+	"homepage": "https://github.com/WeAreIconick/parti",
 	"license": "GPL-2.0-or-later",
 	"repositories": [
 		{

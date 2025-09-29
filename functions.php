@@ -1,20 +1,20 @@
 <?php
 /**
- * Buildio theme functions and definitions.
+ * Parti theme functions and definitions.
  *
  * @link    https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Buildio
+ * @package Parti
  */
 
-namespace Buildio\Functions;
+namespace Parti\Functions;
 
 /**
  * Set up any theme supports we may need, and starter content.
  */
 function on_after_setup_theme() {
 	require get_template_directory() . '/inc/starter-content.php';
-	\add_theme_support( 'starter-content', \Buildio\StarterContent\get_starter_content() );
+	\add_theme_support( 'starter-content', \Parti\StarterContent\get_starter_content() );
 }
 \add_action( 'after_setup_theme', __NAMESPACE__ . '\on_after_setup_theme' );
 
@@ -26,7 +26,7 @@ function on_after_setup_theme() {
 function enqueue_block_assets() {
 	// Handle adding the theme's style.css for generic non-block-specific styles.
 	\wp_enqueue_style(
-		'buildio',
+		'parti',
 		\get_stylesheet_uri(),
 		array(),
 		(string) filemtime( __DIR__ . '/style.css' )
@@ -43,7 +43,7 @@ function enqueue_block_editor_assets() {
 	$asset_file = require \get_theme_file_path( '/build/block-editor.asset.php' );
 
 	\wp_enqueue_script(
-		'buildio',
+		'parti',
 		\get_theme_file_uri( 'build/block-editor.js' ),
 		$asset_file['dependencies'],
 		$asset_file['version'],
