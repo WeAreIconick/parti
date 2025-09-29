@@ -3,7 +3,12 @@
 	"version": 3,
 	"title": "Window",
 	"slug": "window",
-	"blockTypes": [ "core/image" ],
+	"blockTypes": [
+		"core/image",
+		"core/column",
+		"core/group",
+		"core/cover"
+	],
 	"styles": {
 		"border": {
 			"radius": {
