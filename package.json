@@ -20,7 +20,7 @@
         "**",
         "!.*",
         "!.git/**",
-        "!_playground/*.zip"
+        "!*.zip"
     ],
     "engines": {
         "node": ">=20.0",
@@ -47,6 +47,6 @@
         "start": "npm-run-all --parallel \"start:*\"",
         "start:js": "wp-scripts start --blocks-manifest",
         "start:scss": "sass --watch sass/style.scss:style.css --style=expanded --source-map",
-        "theme-zip": "wp-scripts plugin-zip && mv parti.zip _playground/parti.zip"
+        "theme-zip": "wp-scripts plugin-zip"
     }
 }
