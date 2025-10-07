@@ -223,6 +223,24 @@
 						"css": "transition: background 0.3s ease-in-out, color 0.3s ease-in-out;\n\n&:hover {\n  background: var(--wp--preset--color--white-20);\n}"
 					}
 				}
+			},
+			"core/details": {
+				"color": {
+					"background": "var(--wp--preset--color--white-10)"
+				},
+				"css": "border-radius: 0.75em\n\n& summary {\n  font-size: 1.2em;\n  display: flex;\n  justify-content: space-between;\n}\n\n& summary::after {\n  content: '';\n  width: 0; \n  height: 0;\n  margin-top: 0.75rem;\n  border-top: 10px solid var(--wp--preset--color--primary,);\n  border-inline: 7px solid transparent;\n  transition: 0.2s;\n}\n\n&[open] > summary::after {\n  transform: rotate(-180deg);\n}\n\n& p {\n  padding-right: 15%;\n}\n",
+				"spacing": {
+					"padding": {
+						"bottom": "var(--wp--preset--spacing--40)",
+						"left": "var(--wp--preset--spacing--40)",
+						"right": "var(--wp--preset--spacing--40)",
+						"top": "var(--wp--preset--spacing--40)"
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"lineHeight": "1.5"
+				}
 			}
 		},
 		"color": {

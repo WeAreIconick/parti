@@ -236,6 +236,53 @@ function get_starter_content() {
 <!-- /wp:social-links --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
+<!-- /wp:group -->
+<!-- wp:group {"metadata":{"name":"FAQs"},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:group {"className":"is-style-blur-box","backgroundColor":"white-10","layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group is-style-blur-box has-white-10-background-color has-background"><!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">FAQs</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:heading {"textAlign":"center","style":{"spacing":{"padding":{"right":"10%","left":"10%"}},"typography":{"fontStyle":"normal","fontWeight":"200","lineHeight":"1.1","fontSize":"2.8rem"}}} -->
+<h2 class="wp-block-heading has-text-align-center" style="padding-right:10%;padding-left:10%;font-size:2.8rem;font-style:normal;font-weight:200;line-height:1.1">Frequently asked questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|white-70"}}}},"textColor":"white-70"} -->
+<p class="has-text-align-center has-white-70-color has-text-color has-link-color">Find helpful answers about our services, detailed process, and bringing your vision to life.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"layout":{"type":"constrained","contentSize":"750px"}} -->
+<div class="wp-block-group"><!-- wp:details {"showContent":true} -->
+<details class="wp-block-details" open><summary>Why should I hire a professional interior designer?</summary><!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p>Professional interior designers bring expertise in space planning, color theory, materials, and lighting that helps transform your space efficiently and beautifully. They can help avoid costly mistakes, maximize your budget, and create a cohesive look that reflects your lifestyle while increasing your property value.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>How long does a typical renovation or landscaping project take?</summary><!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p>The duration varies based on the size and complexity of the project. A simple landscaping update may take 1–2 weeks, while a full exterior renovation with structural changes, new siding, or outdoor features can take 4–8 weeks or longer. We provide a detailed timeline after the initial consultation.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>Can I be actively involved in the design process?</summary><!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p>Absolutely. We encourage client collaboration at every stage—from the initial concept to material selection and final approvals. Your preferences, lifestyle, and goals are central to the design process, and we work closely with you to bring your vision to life.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>What materials do you usually use for outdoor spaces?</summary><!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p>We use high-quality, weather-resistant materials such as treated wood, composite decking, natural stone, and sustainable concrete. Our team considers climate, maintenance, and usage needs to select materials that not only look beautiful but also stand the test of time.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details -->
+<details class="wp-block-details"><summary>How do I begin a new home project with your team?</summary><!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
+<p>Getting started is simple! Just reach out through our contact form or give us a call. We’ll schedule an initial consultation to understand your needs, budget, and timeline. From there, we’ll guide you step-by-step through the design, planning, and execution process.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->',
 			),
 			'about',
