@@ -288,7 +288,6 @@ function get_starter_content() {
 			'about',
 			'contact',
 			'blog',
-			'news',
 		),
 
 		'attachments' => array(
@@ -318,16 +317,6 @@ function get_starter_content() {
 					'page_about',
 					'page_blog',
 					'page_contact',
-				),
-			),
-
-			// Assign a menu to the "footer" location.
-			'footer'  => array(
-				'name'  => esc_html__( 'Footer menu', 'parti' ),
-				'items' => array(
-					'link_home',
-					'link_news',
-					'link_email',
 					'link_github' => array(
 						'title' => esc_html_x( 'Parti', 'Theme starter content', 'parti' ),
 						'url'   => 'https://github.com/WeAreIconick/parti/',
