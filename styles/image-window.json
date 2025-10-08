@@ -4,6 +4,7 @@
 	"title": "Window",
 	"slug": "window",
 	"blockTypes": [
+		"core/post-featured-image",
 		"core/image",
 		"core/column",
 		"core/group",

@@ -28,7 +28,7 @@
 <h2 class="wp-block-heading"><?php esc_html_e('Links', 'parti');?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"layout":{"type":"flex","orientation":"vertical"}} /--></div>
+<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"top"}} -->
@@ -36,7 +36,7 @@
 <h2 class="wp-block-heading"><?php esc_html_e('Socials', 'parti');?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:navigation {"layout":{"type":"flex","orientation":"vertical"}} /--></div>
+<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
