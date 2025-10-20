@@ -18,7 +18,3 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
-
-<!-- wp:spacer {"height":"50px"} -->
-<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->

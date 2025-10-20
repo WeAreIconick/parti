@@ -292,6 +292,7 @@
 			"background": "var(--wp--preset--color--black)",
 			"text": "var(--wp--preset--color--white)"
 		},
+		"css": ".wp-site-blocks {\n    padding-top: 120px;\n}\n\n.wp-site-blocks > header.wp-block-template-part {\n    position: fixed;\n    width: 100%;\n    min-height: 120px;\n    box-sizing: border-box;\n    top: var(--wp-admin--admin-bar--height, 0px);\n    left: 0;\n    z-index: 100;\n    background-color: var(--wp--preset--color--black-80);\n    backdrop-filter: blur(8px);\n}",
 		"elements": {
 			"button": {
 				"color": {
