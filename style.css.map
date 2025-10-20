@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["sass/base/_theme-details.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["sass/base/_theme-details.scss","sass/base/_view-transitions.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;ACAA;AAAA;AAAA;AAAA;AAKA;EACI","file":"style.css"}

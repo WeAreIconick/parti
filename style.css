@@ -14,5 +14,12 @@ Text Domain:  parti
 Domain Path:  /languages
 Requires PHP: 8.2
 */
+/*
+ * This is the most basic view transition.  It could be updated
+ * to give more engaging options based on the content.
+ */
+@view-transition {
+  navigation: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
