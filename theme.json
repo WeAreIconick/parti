@@ -224,6 +224,9 @@
 					}
 				}
 			},
+			"core/column": {
+				"css": "&.featured-image:empty {\n  display: none;\n}"
+			},
 			"core/details": {
 				"color": {
 					"background": "var(--wp--preset--color--white-10)"
